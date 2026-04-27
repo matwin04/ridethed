@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import dLineLogo from './assets/D.svg'
 import { setupCounter } from './counter.js'
 import { startCountdown } from './timer.js'
+import { inject } from '@vercel/analytics'
 document.querySelector('#app').innerHTML = `
 <section id="center">
   <div class="hero">
@@ -19,3 +20,5 @@ document.querySelector('#app').innerHTML = `
 `
 const targetDate = new Date("May 8, 2026 00:00:00").getTime();
 startCountdown(document.querySelector('#counter'), targetDate);
+
+inject();
