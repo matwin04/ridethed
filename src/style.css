@@ -1,0 +1,11 @@
+#counter {
+  text-align: center;
+  font-size: 48px;
+}
+#app {
+  font-family: "SF Mono", Consolas, monospace;
+}
+#icon {
+  width: 24px;
+  height: 24px;
+}
