@@ -4,7 +4,7 @@ export function startCountdown(element, targetDate) {
         const distance = targetDate - now;
 
         if (distance <= 0) {
-            element.textContent = "🎉 It's open!";
+            element.textContent = "Time ro Ride the D!!!!";
             return;
         }
 
